@@ -28,6 +28,12 @@ form {
   width: 560px;
   font-size: 18px;
   letter-spacing: 1px;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 2px;
+}
+#google-search:focus {
+  outline: none;
 }
 
 #google-button {
