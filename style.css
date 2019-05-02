@@ -1,0 +1,44 @@
+body {
+  font-family: "SF Mono";
+  background-color: #272c33;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  letter-spacing: 1.2px;
+}
+
+header {
+  font-size: 64px;
+  margin-bottom: 32px;
+}
+
+.content {
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a#kontext {
+  color: rgb(89, 178, 36);
+}
+a#airtable {
+  color: rgb(252, 180, 0);
+}
+a#redmine {
+  color: #ae1400;
+}
