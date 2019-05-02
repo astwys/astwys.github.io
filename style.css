@@ -19,6 +19,21 @@ header {
   
 }
 
+form {
+  margin-bottom: 64px;
+}
+
+#google-search {
+  height: 40px;
+  width: 560px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+#google-button {
+  display: none;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -26,6 +41,8 @@ ul {
 
 li {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 a {
